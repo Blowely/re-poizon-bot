@@ -1,0 +1,26 @@
+{
+  "name": "re-poizon-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Blowely/re-poizon-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Blowely/re-poizon-bot/issues"
+  },
+  "homepage": "https://github.com/Blowely/re-poizon-bot#readme",
+  "dependencies": {
+    "centrifuge": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1",
+    "ws": "^8.13.0"
+  }
+}
