@@ -1,2 +1,5 @@
-.idea
+# dependencies
+/node_modules
+
+/.idea
 .env
