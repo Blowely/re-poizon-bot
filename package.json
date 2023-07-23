@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/Blowely/re-poizon-bot#readme",
   "dependencies": {
+    "axios": "^1.4.0",
     "centrifuge": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
