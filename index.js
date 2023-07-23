@@ -6,7 +6,8 @@ const app = express()
 const port = 3002
 
 const token = process.env.BOT_TOKEN;
-const TELEGRAM_URI = `https://api.telegram.org/bot${process.env.BOT_TOKEN}/sendMessage`
+const TELEGRAM_URI = `https://api.telegram.org/bot5815209672:AAGETufx2DfZxIdsm1q18GSn_bLpB-2-3Sg/sendMessage`
+//const TELEGRAM_URI = `https://api.telegram.org/bot${process.env.BOT_TOKEN}/sendMessage`
 
 
 app.use(express.json())
@@ -17,6 +18,10 @@ app.use(
 )
 
 let chatId = '';
+
+app.get('/', (req, res) => {
+    res.send('its working');
+})
 
 app.post('/new-order', async (req, res) => {
     try {
