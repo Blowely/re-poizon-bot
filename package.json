@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "dev": "nodemon index.js",
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,11 +20,8 @@
   "homepage": "https://github.com/Blowely/re-poizon-bot#readme",
   "dependencies": {
     "axios": "^1.4.0",
-    "centrifuge": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
-    "node-telegram-bot-api": "^0.61.0",
-    "nodemon": "^3.0.1",
-    "ws": "^8.13.0"
+    "nodemon": "^3.0.1"
   }
 }
