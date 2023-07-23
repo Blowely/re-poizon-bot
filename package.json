@@ -19,7 +19,9 @@
   "homepage": "https://github.com/Blowely/re-poizon-bot#readme",
   "dependencies": {
     "centrifuge": "^2.8.5",
+    "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0",
     "nodemon": "^3.0.1",
     "ws": "^8.13.0"
   }
